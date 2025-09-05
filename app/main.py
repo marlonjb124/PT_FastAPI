@@ -3,8 +3,14 @@ import time
 
 from app.api.routes import router as api_router
 from app.core.logging import logger
+from app.core.rate_limiting import limiter, rate_limit_handler
+from slowapi.errors import RateLimitExceeded
 
 app = FastAPI(title="TODO API", version="1.0.0")
+
+# Add rate limiting state
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, rate_limit_handler)
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):

@@ -1,2 +1,117 @@
-2025-09-04 01:58:00,835 - app - INFO - Application startup
-2025-09-04 01:58:50,447 - app - INFO - Application startup
+2025-09-05 01:12:49,270 - app - INFO - Request: GET /auth/singup - Completed in 0.0175s - Status: 404
+2025-09-05 01:12:59,206 - app - INFO - Request: GET /auth/sing_up - Completed in 0.0010s - Status: 404
+2025-09-05 01:13:16,382 - app - INFO - Request: GET /auth/signup - Completed in 0.0008s - Status: 404
+2025-09-05 01:13:21,328 - app - INFO - Request: GET /auth/sign_up - Completed in 0.0044s - Status: 405
+2025-09-05 01:13:27,434 - app - INFO - Signup attempt for username: testuser3
+2025-09-05 01:13:27,629 - app - WARNING - Signup failed: email test@example.com already exists
+2025-09-05 01:13:27,651 - app - INFO - Request: POST /auth/sign_up - Completed in 0.3162s - Status: 400
+2025-09-05 01:13:32,862 - app - INFO - Signup attempt for username: testuser3
+2025-09-05 01:13:33,423 - app - INFO - User testuser3 created successfully with id 5b7fe170-dcad-4375-bd69-a7807cc5f2ff
+2025-09-05 01:13:33,440 - app - INFO - Request: POST /auth/sign_up - Completed in 0.5790s - Status: 200
+2025-09-05 01:17:08,438 - app - INFO - Request: POST /tasks - Completed in 0.0478s - Status: 307
+2025-09-05 01:17:08,585 - app - INFO - Request: POST /tasks/ - Completed in 0.0960s - Status: 401
+2025-09-05 01:17:26,379 - app - INFO - Login attempt for user: testuser1
+2025-09-05 01:17:27,025 - app - INFO - User testuser1 logged in successfully
+2025-09-05 01:17:27,084 - app - INFO - Request: POST /auth/login - Completed in 0.7996s - Status: 200
+2025-09-05 01:17:41,402 - app - INFO - Request: POST /tasks - Completed in 0.0009s - Status: 307
+2025-09-05 01:17:41,652 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:18:46,084 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:19:32,917 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:20:23,437 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:23:18,661 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:23:28,135 - app - INFO - Application startup
+2025-09-05 01:23:36,196 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:29:19,007 - app - INFO - Application startup
+2025-09-05 01:29:19,373 - app - INFO - User testuser1 creating a new task with title: My First Task 2
+2025-09-05 01:32:04,812 - app - INFO - Application startup
+2025-09-05 01:32:28,467 - app - INFO - User testuser1 creating a new task with title: My First Task 2123
+2025-09-05 01:33:07,173 - app - INFO - User testuser1 creating a new task with title: My First Task 2123
+2025-09-05 01:33:31,446 - app - INFO - Application startup
+2025-09-05 01:33:33,617 - app - INFO - User testuser1 creating a new task with title: My First Task 2123
+2025-09-05 01:34:58,021 - app - INFO - Application startup
+2025-09-05 01:50:42,116 - app - INFO - User testuser1 creating a new task with title: My First Task 2123
+2025-09-05 01:50:48,019 - app - INFO - Application startup
+2025-09-05 01:50:57,166 - app - INFO - User testuser1 creating a new task with title: My First Task 2123
+2025-09-05 01:50:57,227 - app - WARNING - User testuser1 failed to create task with title: My First Task 2123. Task already exists.
+2025-09-05 01:50:57,234 - app - INFO - Request: POST /tasks/ - Completed in 0.2573s - Status: 400
+2025-09-05 01:51:05,041 - app - INFO - User testuser1 creating a new task with title: My First Task 21234
+2025-09-05 01:51:05,052 - app - WARNING - User testuser1 failed to create task with title: My First Task 21234. Task already exists.
+2025-09-05 01:51:05,062 - app - INFO - Request: POST /tasks/ - Completed in 0.0488s - Status: 400
+2025-09-05 01:51:25,592 - app - INFO - User testuser1 creating a new task with title: My First Task 212346
+2025-09-05 01:51:25,599 - app - WARNING - User testuser1 failed to create task with title: My First Task 212346. Task already exists.
+2025-09-05 01:51:25,603 - app - INFO - Request: POST /tasks/ - Completed in 0.0245s - Status: 400
+2025-09-05 01:51:41,845 - app - INFO - User testuser1 creating a new task with title: My First Task 212346
+2025-09-05 01:51:41,857 - app - WARNING - User testuser1 failed to create task with title: My First Task 212346. Task already exists.
+2025-09-05 01:51:41,865 - app - INFO - Request: POST /tasks/ - Completed in 0.0671s - Status: 400
+2025-09-05 01:52:07,106 - app - INFO - Application startup
+2025-09-05 01:52:07,446 - app - INFO - User testuser1 creating a new task with title: My First Task 212346
+2025-09-05 01:52:07,646 - app - INFO - Request: POST /tasks/ - Completed in 0.5220s - Status: 200
+2025-09-05 01:53:22,675 - app - INFO - Request: GET /tasks/ - Completed in 0.0025s - Status: 401
+2025-09-05 01:54:29,282 - app - INFO - Login attempt for user: testuser1
+2025-09-05 01:54:29,785 - app - INFO - User testuser1 logged in successfully
+2025-09-05 01:54:29,790 - app - INFO - Request: POST /auth/login - Completed in 0.5149s - Status: 200
+2025-09-05 01:54:51,302 - app - INFO - Request: GET /tasks/ - Completed in 0.0265s - Status: 200
+2025-09-05 01:57:04,465 - app - INFO - Request: GET /tasks/ - Completed in 0.0197s - Status: 200
+2025-09-05 01:57:45,904 - app - INFO - Request: GET /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0019s - Status: 401
+2025-09-05 01:58:05,611 - app - INFO - User testuser1 fetching task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c
+2025-09-05 01:58:05,620 - app - INFO - User testuser1 fetched task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c successfully.
+2025-09-05 01:58:05,624 - app - INFO - Request: GET /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0217s - Status: 200
+2025-09-05 02:00:52,604 - app - INFO - User testuser1 updating task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c
+2025-09-05 02:01:27,593 - app - INFO - User testuser1 updating task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c
+2025-09-05 02:01:46,225 - app - INFO - Application startup
+2025-09-05 02:01:46,495 - app - INFO - User testuser1 updating task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c
+2025-09-05 02:01:46,643 - app - INFO - Request: PUT /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.3954s - Status: 200
+2025-09-05 02:03:32,899 - app - INFO - Request: PUT /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0262s - Status: 422
+2025-09-05 02:03:54,249 - app - INFO - User testuser1 updating task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c
+2025-09-05 02:03:54,308 - app - INFO - Request: PUT /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0705s - Status: 200
+2025-09-05 02:05:29,953 - app - INFO - User testuser1 deleting task with id: f0d2af0b-7b6a-4b82-98db-240feeaa250c
+2025-09-05 02:06:49,414 - app - INFO - Application startup
+2025-09-05 02:16:47,549 - app - INFO - Request: GET /tasks/ - Completed in 0.8596s - Status: 200
+2025-09-05 02:17:05,220 - app - INFO - User testuser1 deleting task with id: 75a66dbc-dc04-459d-bd09-cbfe4c7110af
+2025-09-05 02:19:06,384 - app - INFO - Application startup
+2025-09-05 02:20:31,626 - app - INFO - User testuser1 deleting task with id: 75a66dbc-dc04-459d-bd09-cbfe4c7110af
+2025-09-05 02:20:32,063 - app - WARNING - User testuser1 failed to delete task with id: 75a66dbc-dc04-459d-bd09-cbfe4c7110af. Task not found.
+2025-09-05 02:20:32,067 - app - INFO - Request: DELETE /tasks/75a66dbc-dc04-459d-bd09-cbfe4c7110af - Completed in 0.8071s - Status: 404
+2025-09-05 02:21:20,978 - app - INFO - User testuser1 deleting task with id: 5357e943-c8e2-4b67-84cf-b888a49027fd
+2025-09-05 02:22:22,398 - app - INFO - Application startup
+2025-09-05 02:22:38,118 - app - INFO - User testuser1 deleting task with id: 5357e943-c8e2-4b67-84cf-b888a49027fd
+2025-09-05 02:22:38,445 - app - WARNING - User testuser1 failed to delete task with id: 5357e943-c8e2-4b67-84cf-b888a49027fd. Task not found.
+2025-09-05 02:22:38,451 - app - INFO - Request: DELETE /tasks/5357e943-c8e2-4b67-84cf-b888a49027fd - Completed in 0.6003s - Status: 404
+2025-09-05 02:23:13,176 - app - INFO - User testuser1 deleting task with id: 0a2c4e93-9a97-4158-9c07-9376b3fb3c49
+2025-09-05 02:23:13,207 - app - INFO - Request: DELETE /tasks/0a2c4e93-9a97-4158-9c07-9376b3fb3c49 - Completed in 0.0395s - Status: 200
+2025-09-05 02:23:35,316 - app - INFO - Request: POST /tasks/ - Completed in 0.0038s - Status: 401
+2025-09-05 02:23:46,790 - app - INFO - Login attempt for user: testuser1
+2025-09-05 02:23:47,326 - app - INFO - User testuser1 logged in successfully
+2025-09-05 02:23:47,332 - app - INFO - Request: POST /auth/login - Completed in 0.5514s - Status: 200
+2025-09-05 02:23:52,669 - app - INFO - Application startup
+2025-09-05 02:24:06,004 - app - INFO - User testuser1 creating a new task with title: My First Task 2123411
+2025-09-05 02:25:00,490 - app - INFO - User testuser1 creating a new task with title: My First Task 21233411
+2025-09-05 02:25:29,412 - app - INFO - Application startup
+2025-09-05 02:25:45,616 - app - INFO - User testuser1 creating a new task with title: My First Task 213233411
+2025-09-05 02:28:29,935 - app - INFO - Application startup
+2025-09-05 02:30:13,686 - app - INFO - User testuser1 creating a new task with title: My First Task 233411
+2025-09-05 02:30:23,075 - app - INFO - Application startup
+2025-09-05 02:38:21,403 - app - INFO - Application startup
+2025-09-05 02:38:38,596 - app - INFO - User testuser1 creating a new task with title: My First Task 23411
+2025-09-05 02:38:38,920 - app - INFO - Task 'My First Task 23411' created successfully for user testuser1 with id 65e41e58-ff0e-46c8-8b82-05687997cf17
+2025-09-05 02:38:38,944 - app - INFO - Request: POST /tasks/ - Completed in 1.0101s - Status: 200
+2025-09-05 02:39:41,365 - app - INFO - Application startup
+2025-09-05 02:50:14,680 - app - INFO - Application startup
+2025-09-05 02:51:17,335 - app - INFO - User testuser1 creating a new task with title: My First Task 278411
+2025-09-05 02:51:17,547 - app - INFO - Task 'My First Task 278411' created successfully for user testuser1 with id 2808aa2e-0eac-4d67-b26a-1704e41d346f
+2025-09-05 02:51:17,568 - app - INFO - Request: POST /tasks/ - Completed in 0.8796s - Status: 200
+2025-09-05 02:51:26,251 - app - INFO - User testuser1 creating a new task with title: My First Task 2784115
+2025-09-05 02:51:26,273 - app - INFO - Task 'My First Task 2784115' created successfully for user testuser1 with id c38dc543-cfa4-4924-a58f-a08a9e940fde
+2025-09-05 02:51:26,278 - app - INFO - Request: POST /tasks/ - Completed in 0.0359s - Status: 200
+2025-09-05 02:52:40,742 - app - INFO - Application startup
+2025-09-05 02:52:59,757 - app - INFO - User testuser1 creating a new task with title: My First Task 2115
+2025-09-05 02:53:01,398 - app - INFO - Task 'My First Task 2115' created successfully for user testuser1 with id 8f0aff0d-9b2d-4758-ae67-ce0871c1cfe2
+2025-09-05 02:53:01,402 - app - INFO - Request: POST /tasks/ - Completed in 3.1363s - Status: 200
+2025-09-05 02:53:22,671 - app - INFO - User testuser1 creating a new task with title: My First Task 21315
+2025-09-05 02:53:23,123 - app - INFO - Task 'My First Task 21315' created successfully for user testuser1 with id 06b6bc84-c12a-4529-ae45-06680b0f64ba
+2025-09-05 02:53:23,128 - app - INFO - Request: POST /tasks/ - Completed in 0.6686s - Status: 200
+2025-09-05 02:53:31,402 - app - INFO - Request: POST /tasks/ - Completed in 0.0133s - Status: 429
+2025-09-05 02:53:46,477 - app - INFO - Request: PUT /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0223s - Status: 422
+2025-09-05 02:53:50,436 - app - INFO - Request: PUT /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0165s - Status: 422
+2025-09-05 02:54:05,063 - app - INFO - Request: GET /tasks/ - Completed in 0.0359s - Status: 200
+2025-09-05 02:54:25,818 - app - INFO - Request: GET /tasks/ - Completed in 0.7808s - Status: 200
