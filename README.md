@@ -34,8 +34,13 @@ Este proyecto implementa una API RESTful para la gestión de tareas (TODOs) mult
    ```bash
    docker-compose up --build
    ```
+4. 
+**Ejecutar migraciones manualmente:**
+```bash
+alembic upgrade head
+```
 
-4. **Verificar que la aplicación esté funcionando**
+5. **Verificar que la aplicación esté funcionando**
    - API: http://localhost:8000
    - Documentación interactiva: http://localhost:8000/docs
    - Documentación alternativa: http://localhost:8000/redoc
@@ -56,13 +61,6 @@ Este proyecto implementa una API RESTful para la gestión de tareas (TODOs) mult
 **Levantar los servicios:** 
 ```bash
 docker-compose up --build
-```
-
-
-
-**Ejecutar migraciones manualmente:**
-```bash
-alembic upgrade head
 ```
 
 SI SE DESEA DETENER LOS SERVICIOS
@@ -140,4 +138,4 @@ Si SE DESEA HACER SIN DOCKER
 - requirements.txt
 - README.md
 
-La creación de carpetas y archivos se realizará en los siguientes pasos.
+
