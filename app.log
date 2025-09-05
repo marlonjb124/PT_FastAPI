@@ -115,3 +115,4 @@
 2025-09-05 02:53:50,436 - app - INFO - Request: PUT /tasks/f0d2af0b-7b6a-4b82-98db-240feeaa250c - Completed in 0.0165s - Status: 422
 2025-09-05 02:54:05,063 - app - INFO - Request: GET /tasks/ - Completed in 0.0359s - Status: 200
 2025-09-05 02:54:25,818 - app - INFO - Request: GET /tasks/ - Completed in 0.7808s - Status: 200
+2025-09-05 02:56:50,447 - app - INFO - Application startup
