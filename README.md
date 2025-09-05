@@ -40,6 +40,17 @@ Este proyecto implementa una API RESTful para la gestión de tareas (TODOs) mult
    - Documentación interactiva: http://localhost:8000/docs
    - Documentación alternativa: http://localhost:8000/redoc
 
+### 📋 Probar la API
+
+**Opción 1: Usar la documentación interactiva**
+- Ir a http://localhost:8000/docs
+- Probar endpoints directamente desde el navegador
+
+**Opción 2: Importar en cliente HTTP (Postman, Insomnia, etc.)**
+- Usar el archivo `PT.openapi.json` incluido en el proyecto
+- Importar en tu cliente HTTP favorito
+- Todos los endpoints y esquemas estarán configurados automáticamente(Editar los parametros de ser necesario)
+
 ### Comandos útiles
 
 **Levantar los servicios:**
