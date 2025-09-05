@@ -12,7 +12,7 @@ Este proyecto implementa una API RESTful para la gestión de tareas (TODOs) mult
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/marlonjb124/PT_FastAPI.git
    cd PTecnica_FastAPI
    ```
 
@@ -53,21 +53,25 @@ Este proyecto implementa una API RESTful para la gestión de tareas (TODOs) mult
 
 ### Comandos útiles
 
-**Levantar los servicios:**
+**Levantar los servicios:** 
 ```bash
 docker-compose up --build
 ```
 
-**Parar los servicios:**
-```bash
-docker-compose down
-```
+
 
 **Ejecutar migraciones manualmente:**
 ```bash
 alembic upgrade head
 ```
 
+SI SE DESEA DETENER LOS SERVICIOS
+**Parar los servicios:**
+```bash
+docker-compose down
+```
+
+Si SE DESEA HACER SIN DOCKER
 ### Desarrollo local (sin Docker)
 
 1. **Crear entorno virtual**
